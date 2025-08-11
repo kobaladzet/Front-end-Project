@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company</title>
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="https://api.fontshare.com/v2/css?f[]=firago@400,500,700&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <nav class="top-nav">
+                <ul class="social-links">
+                    <a href="#"><img src="media/icons/icon.svg" alt="FB"></a>
+                    <a href="#"><img src="media/icons/icon (1).svg" alt="Twit"></a>
+                    <a href="#"><img src="media/icons/icon (2).svg" alt="Insta"></a>
+                </ul>
+                <h1 class="logo">Company Logo</h1>
+                <div class="search-burger">
+                    <div class="search-container">
+                        <input id="search" type="text" placeholder="ძიება...">
+                        <button type="submit">
+                            <img src="media/icons/search.svg" alt="search">
+                        </button>
+                    </div>
+                    <div class="burger" id="burger">&#9776;</div>
+                </div>                
+            </nav>
+        </div>
+
+        <div class="nav-container" id="navMenu">
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">პოლიტიკა</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">საზოგადოება</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Covid-19</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">სამართალი</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ხელოვნება</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">კრიმინალი</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">შემთხვევა</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">მსოფლიო</a></li>
+                    <li class="nav-item item"><a href="#" class="nav-link">სპორტი</a></li>
+                    <li class="nav-item item"><a href="#" class="nav-link">რელიგია</a></li>
+                    <li class="nav-item item"><a href="#" class="nav-link">ხელოვნება</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" onclick="toggleDropdown(event)">მეტი ▼</a>
+                        <div class="dropdown-content">
+                            <a href="#">ხელოვნება</a>
+                            <a href="#">რელიგია</a>
+                            <a href="#">სამორინე</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide active">
+                    <img src="media/sliders/slider (1).png" alt="purple sky">
+                    <div class="slide-content">
+                        <div class="category">პოლიტიკა</div>
+                        <span class="dot">&#x2022;</span>
+                        <span class="date">18.04.2022</span>
+                        <h2>ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების სამელიორაციო ინფრასტრუქტურული პროექტები დაიწყება</h2>
+
+                    </div>
+                            
+                </div>
+                <div class="swiper-slide">
+                    <img src="media/sliders/slider (2).png" alt="painting">
+                    <div class="slide-content">
+                        <div class="category">ხელოვნება</div>
+                        <span class="dot">&#x2022;</span>
+                        <span class="date">18.04.2022</span>
+                        <h2>ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების სამელიორაციო ინფრასტრუქტურული პროექტები დაიწყება</h2>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="media/sliders/slider (3).png" alt="painting">
+                    <div class="slide-content">
+                        <div class="category">კრიმინალი</div>
+                        <span class="dot">&#x2022;</span>
+                        <span class="date">18.04.2022</span>
+                        <h2>ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების სამელიორაციოინფრასტრუქტურული პროექტები დაიწყება</h2>
+                        
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="media/sliders/slider (4).png" alt="painting">
+                    <div class="slide-content">
+                        <div class="category">საზოგადოება</div>
+                        <span class="dot">&#x2022;</span>
+                        <span class="date">18.04.2022</span>
+                        <h2>ქვემო ქართლის რეგიონში 20 მლნ ლარამდე ღირებულების სამელიორაციოინფრასტრუქტურული პროექტები დაიწყება</h2>
+                       
+                    </div>   
+                </div>
+                 
+               
+            </div>
+           
+            
+        </div>
+
+
+        <div class="grid-container">
+            
+            <div class="container item1">
+                <img src="media/pics/pic.png" alt="sky">
+                <h2 class="description">ჩრდილოეთ კორეამ აშშ-სა და სამხრეთ კორეის წინააღმდეგ იმიტირებული ბირთვული კონტრშეტევა დაიწყო</h2>
+                <hr>
+                <div class="div1">
+                    <p>ახალი ამბები</p>
+                    <p class="date1">18.04.2023</p>
+                </div>
+
+            </div>
+            <div class="container item2">
+                <img src="media/pics/pic (1).png" alt="moon phases">
+                <div>
+                    <p>პოლიტიკა</p>
+                    <span class="dot">&#x2022;</span>
+                    <p class="date1">18.04.2023</p>
+                </div>
+                <h2 class="description">კიმ ჩენ ინი აშშ-სა და სამხრეთ კორეას ბირთვული იარაღით </h2>                
+            </div>
+            <div class="container item3">
+                <img src="media/pics/pic (2).png" alt="moon phases">
+                <div>
+                    <p>პოლიტიკა</p>
+                    <span class="dot">&#x2022;</span>
+                    <p class="date1">18.04.2023</p>
+                </div>
+                <h2 class="description">საქართველოს მორაგბეთა ნაკრები „რაგბი ევროპის“ გამარჯვებულია</h2>                
+            </div>
+            <div class="container item4">
+                <img src="media/pics/pic (3).png" alt="moon phases">
+                <div>
+                    <p>ახალი ამბები</p>
+                    <span class="dot">&#x2022;</span>
+                    <p class="date1">18.04.2023</p>
+                </div>
+                <h2 class="description">დღეს კიბოს სკრინინგის მხარდასაჭერი კონცერტი </h2>                
+            </div>
+            <div class="container item5">
+                <img src="media/pics/pic (4).png" alt="moon phases">
+                <div>
+                    <p>ახალი ამბები</p>
+                    <span class="dot">&#x2022;</span>
+                    <p class="date1">18.04.2023</p>
+                </div>
+                <h2 class="description">უკრაინას დიდი კონტრშეტევისთვის მხოლოდ ერთი მცდელობა ექნება</h2>                
+            </div>
+
+        </div>
+        
+        
+
+
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
