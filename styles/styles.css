@@ -113,6 +113,7 @@ header {
   font-weight: bold;
   color: #FF3B30;
   margin: 0;
+  cursor: pointer;
 }
 
 .burger{
@@ -496,7 +497,7 @@ footer{
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 16px;
   color: #4A5468;
 }
 
@@ -638,6 +639,7 @@ footer{
 
   .logo {
     font-size: 1.4rem;
+
   }
   
   .top-nav {
