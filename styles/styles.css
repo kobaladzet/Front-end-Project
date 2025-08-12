@@ -392,10 +392,10 @@ header {
 
 .description {
   font-family: 'FiraGO', sans-serif;
-  font-size: 24px;
-  margin-top: 20px;
+  font-size: 20px;
   font-weight: bold;
-  margin-bottom: 40px;
+  padding: 8px;
+  margin: 20px 10px 40px 10px;
 }
 
 .div1 {
@@ -406,7 +406,10 @@ header {
   margin-top: 15px;
   p {
     color: red;
+    font-weight: bold;
+    margin: 0px 10px;
   }
+  
 }
 
 .container div {
@@ -415,7 +418,7 @@ header {
   gap: 10px;
   margin-top: 10px;
   margin-bottom: 3px;
-  
+  padding: 8px;
 }
 
 .grid-container {
@@ -425,18 +428,20 @@ header {
   grid-template-rows: repeat(4, 150px);
   padding: 16px;
   position: relative;
-  gap: 20px;
-}
-.item1 {
-  grid-column: 2 / span 3; /* starts from column 2 and spans 3 columns */
-  grid-row: 1 / span 4;    /* spans 3 rows */
-  
+  gap: 18px;
 }
 .item1 img, .item2 img, .item3 img, .item4 img, .item5 img {
     width: 100%;
   object-fit: cover;
   object-position: center;
 }
+
+.item1 {
+  grid-column: 2 / span 3; /* starts from column 2 and spans 3 columns */
+  grid-row: 1 / span 4;    /* spans 3 rows */
+  
+}
+
 
 .item2 {
   grid-column: 1 / 2;
@@ -461,6 +466,57 @@ header {
 .date1, hr{
   color: rgb(126, 122, 122) !important;
 }
+
+
+footer{
+  width: 100%;
+  background-color: #E2E7F0;
+  min-height: 330px;
+
+}
+.footer {
+  max-width: 1340px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin: 0 auto;
+  
+  font-family: 'FiraGO', sans-serif;
+
+}
+
+
+.footer > div > ul {
+  margin-top: 40px;
+}
+.footer > div > h4 {
+  font-weight: bold;
+}
+.rules {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: #4A5468;
+}
+
+.email {
+  margin-top: 40px;
+}
+
+.footer-wrapper {
+  max-width: 1340px;
+  margin: 0 auto;
+  padding: 40px;
+  
+}
+
+.company {
+  color: #4A5468;
+  margin-top: 90px;
+  
+}
+
 
 @media (max-width: 1240px) {
 
@@ -726,7 +782,25 @@ header {
     grid-column: 1 / 2;
     grid-row: 5 / 6;
   }
-  
+
+  .email input{
+    display: block;
+  }
+  .email {
+    padding: 8px 10px;
+    background-color: #EDF0F7; /* Remove background */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Remove shadow */
+    border-radius: 10px; /* Remove border radius */
+    }
+
+  .email button {
+    background-color: white;
+  } 
+  .footer{
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
 
   
 
